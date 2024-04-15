@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>
+        .lang-flag {
+            position: relative;
+        }
+
+        .english-flag {
+            position: absolute;
+            z-index: 10;
+           
+        }
+
+        .frech-flag {
+            position: absolute;
+            z-index: 5;
+            transition: all 2s linear;
+        }
+
+        .lang-flag:hover .frech-flag {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lang-flag">
+        <img class="english-flag" src="./my website/img/uk-flag.jpg" alt="e" width="100" height="50">
+        <img class="frech-flag" src="./my website/img/french-flag.png" alt="f" width="100" height="50">
+    </div>
+</body>
+
+</html>

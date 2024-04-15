@@ -1,0 +1,918 @@
+.icone title {}
+
+.bb {
+    text-decoration: underline;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+summary {
+    list-style: none;
+    font-size: smaller;
+}
+
+details a {
+    display: none;
+}
+
+#nav-small-screen {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    margin-top: 50%;
+    display: none;
+    z-index: 101;
+}
+
+/* nav with id belong three last page while the one with class is 
+belong Home page */
+.nav-small-screen {
+    background-color: rgb(15, 14, 14);
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    margin-top: 50%;
+    display: none;
+    z-index: 101;
+}
+
+#nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links ul li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    margin: 10px;
+    font-size: large;
+    margin-right: 50px;
+    transition: all 0.3s;
+}
+
+a:hover {
+    font-size: x-large;
+    color: white;
+    border-radius: 40px;
+    text-decoration: underline;
+}
+
+/*
+.lang-flag{
+    position: relative;
+}
+
+.english-flag {
+    position: absolute;
+    z-index: 10;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.lang-flag a {
+    position: absolute;
+    z-index: 5;
+    margin-top: 0%;
+    margin-left: 0%;
+    transition: all 0.75s linear;
+}
+
+.lang-flag:hover a {
+    margin-top: 25px;
+} */
+
+
+.discount {
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+}
+
+.navlinks {
+    width: 100%;
+    height: 93px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    position: fixed;
+}
+
+.navlinks-for-contact-a-p {
+    width: 100%;
+    height: 93px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 101;
+}
+
+.abolo-logo {
+    width: 52%;
+    height: 90px;
+}
+
+#abolo-logo-1 {
+    width: 90px;
+    height: 90px;
+}
+
+.top-img {
+    position: absolute;
+    z-index: 15;
+    position: absolute;
+    left: 6px;
+    border-radius: 22px;
+}
+
+.dropdown {
+    position: absolute;
+    z-index: 10;
+    transition: all 0.4s;
+    left: 6px;
+    border-radius: 22px;
+}
+
+.click {
+    z-index: 21;
+    position: absolute;
+    top: 50%;
+    transition: all 0.6s;
+    display: none;
+}
+
+.img-double:hover .click {
+    display: inline;
+}
+
+.img-double:hover {
+    transform: scale(1.1);
+}
+
+.img-double:hover .dropdown {
+    z-index: 20;
+}
+
+.products-img {
+    width: 400px;
+    height: 580px;
+    margin: 30px;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.price {
+    position: absolute;
+    top: 545px;
+    right: 30px;
+    font-weight: bold;
+}
+
+#all-products {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 300px;
+}
+
+#products-ranger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#txtp {
+    margin-left: 60px;
+    color: gold;
+    position: absolute;
+    top: 12%;
+}
+
+#button {
+    position: absolute;
+    top: 550px;
+}
+
+#shopping-cart {
+    display: none;
+}
+
+#price-discount {
+    text-decoration: line-through;
+    color: rgb(61, 64, 67);
+}
+
+/* control + button beside the shift */
+
+.searching-bar2 {
+    width: 400px;
+    height: 1.2%;
+    border-radius: 10px;
+}
+
+.myinput {
+    position: absolute;
+    top: 150px;
+    right: 40%;
+}
+
+.magimg {
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 5%;
+    right: 10px;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.english-flag {
+    width: 50px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.img-double {
+    filter: drop-shadow(10px 10px 6px);
+    transition: all 0.3s;
+}
+
+.myinput div {
+    display: flex;
+    justify-content: end;
+}
+
+#nav-small-screen-product {
+    display: none;
+}
+
+#contact-form {
+    width: 260px;
+    height: auto;
+    position: absolute;
+    top: 4cm;
+    left: 6cm;
+}
+
+#contact-form h2 {
+    color: aliceblue;
+}
+
+.contact-div-form p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.contact-form-group {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+#contact-form-message {
+    min-width: 205%;
+    max-width: 30%;
+    min-height: 2%;
+    max-height: 0%;
+}
+
+/* svg */
+:root {
+    --dark-color: purple;
+    --light-color: violet;
+}
+
+svg {
+    cursor: pointer;
+}
+
+#darkcolor {
+    fill: var(--dark-color);
+}
+
+#lightcolor {
+    fill: var(--light-color);
+}
+
+#dark1,
+#light1,
+#dark2 {
+    transition: all 1s ease;
+}
+
+#dark2 {
+    transform: translateX(-100%);
+}
+
+svg:hover #light1 {
+    transform: translateX(20%);
+}
+
+svg:hover #dark1 {
+    transform: translateX(40%);
+    opacity: 0;
+}
+svg:hover #dark2 {
+    transform: translateX(0%);
+}
+
+.svg{
+    position: absolute;
+    top: 65%;
+    left: 210%;
+}
+
+#contact-icon-socialmedia {
+    position: relative;
+    top: 80%;
+    left: 18%;
+    width: 200px;
+}
+
+#contact-icon-socialmedia div {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-icon-socialmedia img {
+    margin: 5px;
+}
+
+#contact-form-email {
+    width: 260px;
+}
+
+#contact-form-name {
+    width: 260px;
+}
+
+/* About CSS */
+#progressing {
+    position: absolute;
+    top: 540px;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#progressing li {
+    color: azure;
+    font-size: 24px;
+}
+
+#file {
+    width: 400px;
+    height: 40px;
+}
+
+.contener-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 16cm;
+    padding: 20px;
+    color: #c49216;
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+
+/* T-shirt page */
+
+.nav-T-shirt {
+    width: 80%;
+    height: 100px;
+    background-color: #0085ff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.nav-T-shirt ul {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#abolosign {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+
+#abolosign img {
+    width: auto;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.button-signin {
+    width: 90px;
+    height: 30px;
+    color: white;
+    border: solid 3px #004E86;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004E86;
+    position: absolute;
+    top: 28%;
+    right: 3%;
+    transition: all 0.4s;
+}
+
+.button-signin:hover {
+    position: absolute;
+    right: 12%;
+    z-index: -1;
+}
+
+.T-shirt-img {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 165%;
+    left: 10%;
+}
+
+.T-shirt-img img {
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.content-T-shirt {
+    position: absolute;
+    top: 170%;
+    right: 10%;
+    width: 500px;
+    height: 300px;
+    background-color: #6EC3FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.trying-bottom {
+    width: 150px;
+    height: 70px;
+    font-weight: bold;
+    color: white;
+    border: solid 3px #B38600;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B38600;
+    position: absolute;
+    top: 485%;
+    right: 12%;
+}
+
+.shopping-bottom {
+    width: 150px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    border: solid 3px#FFC000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC000;
+    position: absolute;
+    top: 485%;
+    right: 28%;
+    transition: all 0.4s;
+}
+
+.shopping-bottom:hover {
+    cursor: no-drop;
+    transform: scale(0.8);
+}
+
+.bluff {
+    background-color: #004E86;
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 585%;
+    right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bluff div {
+    margin-top: 10px;
+    width: 25%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.bluff div span:nth-child(3) {
+    text-decoration: underline;
+}
+
+.extra-img img {
+    width: 60px;
+    width: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.extra-img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 170%;
+    right: 56%;
+    transition: all 0.3s;
+}
+
+.extra-img img:nth-child(1) {
+    opacity: 0.7;
+}
+
+.extra-img img:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+#price {
+    position: absolute;
+    right: 52%;
+    top: 730%;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 451.2px) {
+    body {
+        position: relative;
+    }
+
+    details a {
+        display: inline;
+        font-size: smaller;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navlinks {
+        height: 66px;
+        align-items: flex-start;
+    }
+
+    #nav-links a {
+        display: none;
+        /* main nav links  */
+    }
+
+    .navlinks-for-contact-a-p {
+        display: none;
+        /* last three navbar in com */
+    }
+
+    #abolo-logo-1 {
+        width: 58px;
+        height: 58px;
+        margin-top: 7px;
+    }
+
+    .navlinks .changelan a {
+        font-size: 12px;
+        margin-left: 40px;
+    }
+
+    .changelan {
+        width: 100px;
+    }
+
+    svg {
+        width: 55px;
+        height: 55px;
+    }
+
+    .english-flag {
+        width: 25px;
+        height: 14px;
+        margin-left: 30px;
+        margin-top: 13px;
+    }
+
+    .lang-flag {
+        margin-left: 13px;
+    }
+
+    .discount {
+        font-size: small;
+        position: fixed;
+        margin-top: 120%;
+    }
+
+    #nav-small-screen {
+        display: block;
+        position: fixed;
+        margin-top: 15%;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /*  Two different nav one for home and the one with id belongs three other page */
+    .nav-small-screen {
+        display: block;
+        position: fixed;
+        margin-top: 27%;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 1px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+
+    /* product-page-CSS */
+
+    #txtp {
+        font-size: 12px;
+        position: absolute;
+        top: 20%;
+        left: 0px;
+        margin-left: 0px;
+    }
+
+    .searching-bar2 {
+        width: 130px;
+        border-radius: 50px;
+    }
+
+    .myinput {
+        position: absolute;
+        top: 210px;
+        right: 6%;
+    }
+
+    .magimg {
+        height: 15px;
+        width: 20px;
+        position: absolute;
+        top: 18%;
+        right: 5%;
+    }
+
+    #all-products {
+        position: relative;
+        top: 220px;
+    }
+
+    .products-img {
+        width: 85px;
+        height: 150px;
+        background-color: azure;
+        border-radius: 25px;
+    }
+
+    .top-img,
+    .dropdown {
+        width: 90px;
+        height: 125px;
+        position: absolute;
+        left: 0px;
+    }
+
+    #button {
+        display: none;
+    }
+
+    #shopping-cart {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top: 140px;
+        right: 70px;
+        z-index: 9999;
+    }
+
+    .price {
+        font-size: 12px;
+        position: absolute;
+        top: 135px;
+        right: 0px;
+        font-size: 12px;
+        z-index: 9999;
+    }
+
+    .btn {
+        font-size: 11px;
+    }
+
+    /* contact part CSS */
+
+    #contact-form {
+        position: absolute;
+        bottom: 10%;
+        left: 10px;
+        font-size: 60%;
+    }
+    #contact-form p{
+        font-size: 15px;
+    }
+
+    #contact-form-message {
+        min-width: 120%;
+        max-width: 100%;
+        min-height: 100%;
+        max-height: 120px;
+    }
+
+    #contact-icon-socialmedia {
+        margin-top: 100%; 
+        text-align: center;
+    }
+
+        /* About part media quary CSS */
+        #progressing li {
+            font-size: 14px;
+        }
+
+        #file {
+            width: 150px;
+            height: 20px;
+        }
+
+        #progressing {
+            position: absolute;
+            top: 490px;
+            left: 32%;
+        }
+
+        /* T-shirt page =>media query */
+        #abolosign img {
+            width: auto;
+            height: 50px;
+            position: absolute;
+            top: 0%;
+        }
+
+        .nav-T-shirt {
+            width: 100%;
+            height: 50px;
+            position: relative;
+            top: 60px;
+            right: 160px;
+            z-index: 102;
+        }
+
+        .button-signin {
+            width: 50px;
+            height: 25px;
+            font-size: 11px;
+        }
+
+        .T-shirt-img {
+            width: 250px;
+            height: 350px;
+            position: absolute;
+            top: 275%;
+            left: 0%;
+            z-index: 99;
+        }
+
+        .T-shirt-img img {
+            width: 250px;
+            height: 350px;
+        }
+
+        .extra-img img {
+            width: 45px;
+            z-index: 99;
+        }
+
+        .extra-img {
+            position: absolute;
+            top: 290%;
+            right: 15%;
+        }
+
+        .extra-img img:nth-child(1) {
+            opacity: 1;
+        }
+
+        /* DOES NOT WORKKKKKK */
+
+        .trying-bottom {
+            width: 150px;
+            height: 70px;
+            color: white;
+            position: absolute;
+            top: 1100%;
+            right: 10%;
+        }
+
+        .shopping-bottom {
+            position: absolute;
+            top: 1100%;
+            left: 1%;
+        }
+
+        .bluff {
+            width: 335px;
+            height: 150px;
+            position: absolute;
+            top: 1285%;
+            right: 10%;
+            z-index: 102;
+        }
+
+        .content-T-shirt {
+            font-size: 12px;
+            position: absolute;
+            top: 1600%;
+            width: 330px;
+            height: 230px;
+        }
+
+        #price {
+            position: absolute;
+            right: 72%;
+            top: 1000%;
+            font-size: 16px;
+            z-index: 102;
+        }
+        .svg{
+            display: none;
+        }
+
+    }
+
+
+
+    /* Note */
+    /* PRIDY fiel  when you are looking a web and you send a request to the server,
+     the server start looking in his files which called PRIDY files */
+
+    /* XAMPE its kinda application server to publish the websites*/
+    /* DNS research*/
+    /* boot strap*/
+
+    Cntrol alt multiple choices
